@@ -1,0 +1,140 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 2, 2025, 12:36:25 PM
+    Author     : admin
+*/
+
+#encabezado{
+    top: 0;
+    left: 0;
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: black;
+}
+
+#menu {
+    top: 25%;
+    left: 0;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    background-color: #FF6600;
+
+}
+
+#barraLateral {
+    top: 30%;
+    left: 0;
+    height: 65%;
+    width: 20%;
+    position: fixed;
+    background-color: #FF6600;
+}
+
+#contenido {
+    top: 30%;
+    left: 20%;
+    height: 65%;
+    width: 80%;
+    position: fixed;
+    background-color: #072083;
+    color: white;
+    overflow: auto;
+    padding-left: 10px;
+}
+
+#piePagina{
+    bottom: 0%;
+    left: 0%;
+    height: 5%;
+    width: 100%;
+    position: fixed;
+    background-color: #072083;
+    color: white;
+}
+
+.menunav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6600;
+    width: 70%;
+}
+
+.menulist {
+    float: left;
+}
+
+.menulist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menulist a:hover {
+    background-color: #111;
+}
+
+.containerLoc {
+  display: grid;
+  grid-template-columns: 440px 440px 440px;
+  padding: 0px;
+}
+
+.containerLoc > div {
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.question {
+      background-color: #072083;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      border-color: white;
+      border-style: solid;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+
+
+
+/*
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.menunav {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF6600;
+    width: 70%;
+*/
